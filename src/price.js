@@ -1,5 +1,5 @@
 function applyDiscount(price, percent) {
-  return price - percent / 100;
+  return price * (1 - percent / 100);
 }
 
 module.exports = { applyDiscount };
